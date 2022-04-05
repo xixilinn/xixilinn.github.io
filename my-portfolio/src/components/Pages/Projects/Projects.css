@@ -1,3 +1,27 @@
 li.nav-item {
     margin-right: 3rem;
 }
+
+.d-block {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+h4 {
+    color: #027BFF;
+    text-align: center;
+}
+
+h5.about, h5.tools, h5.languages {
+    text-align: center;
+}
+
+h5.tools {
+    margin-top: 1rem;
+}
+
+hr.separator {
+    width: 25%;
+    border-top: 3px solid blue;
+    background-color: transparent;
+}
