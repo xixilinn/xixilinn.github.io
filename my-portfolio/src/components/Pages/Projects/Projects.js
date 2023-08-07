@@ -6,23 +6,23 @@ export default class Projects extends Component {
     render() {
         return (
             <div>
-                <Container>
+                <Container className='container'>
                     <div className='mt-5'>
                         <h1>Projects</h1>
                         <hr></hr>
                         {/* Request Box */}
                         <div>
-                            <h4>Request Box</h4>
-                            <img className='d-block' src="https://cdn.discordapp.com/attachments/960701390320181248/960701427179728896/unknown.png" alt='preview'></img>
+                            <h4>Yonmie</h4>
+                            <img className='d-block' src="https://cdn.discordapp.com/attachments/960701390320181248/1138211224685916230/image.png" alt='preview'></img>
                             <div className='row align-items-start flex-row mt-3'>
                                 <div className='col-md-6'>
                                     <h5 className='about'>About</h5>
                                     <p>
-                                        This is a simple website built using React for a personal client who wanted a request box where her followers can drop art requests to. 
-                                        The requests are saved to a PostgreSQL database which can be viewed in the form of a HTML table by the client.
+                                        This is a simple website built using React for a personal client who wanted a
+                                        website to showcase her art and have an easy way to display her commission prices.
                                     </p>
                                     <div style={{ textAlign: 'center' }}>
-                                        <Button href='https://yonmie.netlify.app' target='blank' variant='outline-primary'>
+                                        <Button href='https://yonmie.com' target='blank' variant='outline-primary'>
                                             View Website
                                         </Button>
                                     </div>
@@ -88,9 +88,6 @@ export default class Projects extends Component {
                                         <Button href='https://github.com/linxatwit/Accessibot' target='blank' variant='outline-primary'>
                                             View Project
                                         </Button>{' '}
-                                        <Button href='https://accessi-bot.herokuapp.com' target='blank' variant='outline-primary'>
-                                            View Website
-                                        </Button>
                                     </div>
                                 </div>
                                 <div className='col-md-6'>

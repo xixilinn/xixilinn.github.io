@@ -23,10 +23,10 @@ export default class Home extends Component {
                         <div className='col-lg-6'>
                             <h1>About Me</h1>
                             <hr></hr>
-                            <h5>Hi, I'm Xi Xi Lin! I'm currently a graduate student at Wentworth Institute of Technology majoring in Applied Computer Science.</h5>
+                            <h5>Hi, I'm Xi Xi Lin! I'm currently a software engineer for CSG.</h5>
                             <p>
                                 I'm an independent web developer and I love building and designing websites, be it for a client, a friend, or for myself. 
-                                Since I have no artistic abilities, but often find myself admiring great art pieces, I believe that creating websites 
+                                I have no artistic abilities, but often find myself admiring great art pieces, I believe that creating websites 
                                 are the best way for me to show off my creative design skills. I'm a highly organized individual, a strong listener, 
                                 a fast learner, and a team player. I'm always asking questions and learning new things, and I hope to learn from you too!
                             </p>
@@ -67,6 +67,8 @@ export default class Home extends Component {
                                         <li>Flask</li>
                                         <li>React</li>
                                         <li>Express.js</li>
+                                        <li>jQuery</li>
+                                        <li>Bootstrap</li>
                                     </ul>
                                 </li>
                                 <li className="nav-item pr-1">
@@ -82,9 +84,11 @@ export default class Home extends Component {
                                     <h5>Tools</h5>
                                     <ul>
                                         <li>Visual Studio Code</li>
-                                        <li>Heroku</li>
-                                        <li>Jupyter</li>
                                         <li>Jira/Trello</li>
+                                        <li>Docker</li>
+                                        <li>Heroku</li>
+                                        <li>Netlify</li>
+                                        <li>Jupyter</li>
                                         <li>Android Studio</li>
                                         <li>Unity</li>
                                         <li>Eclipse</li>
