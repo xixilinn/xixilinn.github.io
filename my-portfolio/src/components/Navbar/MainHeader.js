@@ -6,7 +6,7 @@ const MainHeader = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand>Xi Xi Lin</Navbar.Brand>
+                    <Navbar.Brand href='/#/'>Xi Xi Lin</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav>

@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import { Container } from 'react-bootstrap';
-import { GoMarkGithub } from 'react-icons/go'
-import { BsLinkedin } from 'react-icons/bs'
-import './Home.css'
+import { GoMarkGithub } from 'react-icons/go';
+import { BsLinkedin } from 'react-icons/bs';
+import './Home.css';
 
 export default class Home extends Component {
 	render() {

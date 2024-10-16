@@ -1,6 +1,10 @@
 import { Component } from 'react';
 import { Container, Badge, Button } from 'react-bootstrap';
-import './Projects.css'
+import './Projects.css';
+
+import instagredients from '../../assets/instagredients.png';
+import accessibot from '../../assets/accessibot.png';
+import yonmie from '../../assets/yonmie.png';
 
 export default class Projects extends Component {
 	render() {
@@ -13,13 +17,13 @@ export default class Projects extends Component {
 						{/* Request Box */}
 						<div>
 							<h4>Yonmie</h4>
-							<img className='d-block' src="https://cdn.discordapp.com/attachments/960701390320181248/1138211224685916230/image.png" alt='preview'></img>
+							<img className='d-block' src={yonmie} alt='preview'></img>
 							<div className='row align-items-start flex-row mt-3'>
 								<div className='col-md-6'>
 									<h5 className='about'>About</h5>
 									<p>
 										This is a simple website built using React for a personal client who wanted a
-										website to showcase her art and have an easy way to display her commission prices.
+										website to display her vtuber profile, showcase her art, and have an easy way to arrange her commission prices.
 									</p>
 									<div style={{ textAlign: 'center' }}>
 										<Button href='https://yonmie.com' target='blank' variant='outline-primary'>
@@ -41,7 +45,7 @@ export default class Projects extends Component {
 						{/* Instagredients */}
 						<div>
 							<h4>Instagredients</h4>
-							<img className='d-block' src="https://cdn.discordapp.com/attachments/960701390320181248/960701460176338994/unknown.png" alt='preview'></img>
+							<img className='d-block' src={instagredients} alt='preview'></img>
 							<div className='row align-items-start flex-row mt-3'>
 								<div className='col-md-6'>
 									<h5 className='about'>About</h5>
@@ -72,7 +76,7 @@ export default class Projects extends Component {
 						{/* Accessibot */}
 						<div>
 							<h4>Accessibot</h4>
-							<img className='d-block' src="https://cdn.discordapp.com/attachments/960701390320181248/960701491230945290/unknown.png" alt='preview'></img>
+							<img className='d-block' src={accessibot} alt='preview'></img>
 							<div className='row align-items-start flex-row mt-3'>
 								<div className='col-md-6'>
 									<h5 className='about'>About</h5>
