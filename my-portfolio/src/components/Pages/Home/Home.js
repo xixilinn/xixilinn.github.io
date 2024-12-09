@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { Container } from 'react-bootstrap';
-import { GoMarkGithub } from 'react-icons/go';
+import { FaGithub } from 'react-icons/fa';
 import { BsLinkedin } from 'react-icons/bs';
 import './Home.css';
 
@@ -16,7 +16,7 @@ export default class Home extends Component {
 							<h5 className='connect'>Connect with me!</h5>
 							<p className='email'>Email me at xixi.lin1990@gmail.com</p>
 							<h5 className='text-muted text-center mx-auto'>
-								<a href='https://github.com/linxatwit' target="blank"><GoMarkGithub /></a> /{' '}
+								<a href='https://github.com/linxatwit' target="blank"><FaGithub /></a> /{' '}
 								<a href='https://linkedin.com/in/xixilinn/' target="blank"><BsLinkedin /></a>
 							</h5>
 						</div>
