@@ -1,14 +1,15 @@
 .profile {
-    background-image: url('../../assets/icon.png');
-    min-height: 300px;
-    width: 300px;
-    background-size: cover;
-    background-position: top; 
-    border-radius: 50%;
-    margin: auto;
+  background-image: url('../../assets/icon.png');
+  min-height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-position: top;
+  border-radius: 50%;
+  margin: auto;
 }
 
-.email, .connect {
-    text-align: center;
-    letter-spacing: 3px;
+.email,
+.connect {
+  text-align: center;
+  letter-spacing: 3px;
 }
