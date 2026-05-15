@@ -19,9 +19,11 @@
     "web-vitals": "^2.1.4"
   },
   "overrides": {
-    "lodash": "4.17.21",
+    "lodash": "4.18.1",
     "nth-check": "^2.1.1",
-    "postcss": "^8.4.38"
+    "postcss": "^8.4.38",
+    "serialize-javascript": "7.0.5",
+    "underscore": "1.13.8"
   },
   "scripts": {
     "predeploy": "npm run build",
