@@ -45,53 +45,46 @@ export default class Home extends Component {
               <li className="nav-item pr-1">
                 <h5>Languages</h5>
                 <ul>
+                  <li>JavaScript</li>
                   <li>Python</li>
                   <li>HTML/CSS</li>
-                  <li>Javascript</li>
                   <li>Bash</li>
-                  <li>Java</li>
-                  <li>C#</li>
                 </ul>
               </li>
               <li className="nav-item pr-1">
                 <h5>OS</h5>
                 <ul>
-                  <li>Windows</li>
                   <li>Linux/Unix</li>
-                  <li>Android</li>
+                  <li>Windows</li>
                 </ul>
               </li>
               <li className="nav-item pr-1">
                 <h5>Frameworks</h5>
                 <ul>
-                  <li>Flask</li>
                   <li>React</li>
+                  <li>Flask</li>
                   <li>Express.js</li>
-                  <li>jQuery</li>
                   <li>Bootstrap</li>
                 </ul>
               </li>
               <li className="nav-item pr-1">
                 <h5>Databases</h5>
                 <ul>
-                  <li>MySQL</li>
                   <li>PostgreSQL</li>
-                  <li>SQL</li>
                   <li>MongoDB</li>
+                  <li>Redis</li>
+                  <li>Redshift</li>
+                  <li>MySQL</li>
                 </ul>
               </li>
               <li className="nav-item pr-1">
                 <h5>Tools</h5>
                 <ul>
                   <li>Visual Studio Code</li>
-                  <li>Jira/Trello</li>
+                  <li>Jira/Trello/ADO</li>
                   <li>Docker</li>
                   <li>Heroku</li>
                   <li>Netlify</li>
-                  <li>Jupyter</li>
-                  <li>Android Studio</li>
-                  <li>Unity</li>
-                  <li>Eclipse</li>
                 </ul>
               </li>
             </ul>
